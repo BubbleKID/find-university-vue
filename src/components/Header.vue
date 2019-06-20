@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="hello">
     <h1>Find University Vue</h1>
     <ul>
@@ -52,9 +53,20 @@
           <dd>
             <a href>50~100名</a>
           </dd>
+          <dd>
+            <label for="">其他</label>
+            <input type="text" oninput=""> ~ <input type="text" oninput=""> 名
+            <button>确定</button>
+          </dd>
         </dl>
       </li>
     </ul>
+  </div>
+  <div>
+    <div class="head">
+
+    </div>
+  </div>
   </div>
 </template>
 
